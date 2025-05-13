@@ -1,0 +1,310 @@
+    /* Hero Section*/
+    .hero {
+      position: relative;
+      background: url('hotel/1.jfif') center center/cover no-repeat;
+      height: 70vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      padding: 0 15px;
+    }
+
+    .hero h1 {
+      font-weight: 700;
+      font-size: 3.5rem;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        height: 50vh;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+
+    /* Fasilitas */
+    #fasilitas {
+      padding: 60px 0;
+      background-color: #f9fbff;
+    }
+
+    #fasilitas h2 {
+      color: dark;
+      font-weight: 700;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .facility-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 20px rgb(0 0 0 / 0.08);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .facility-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 40px rgb(0 0 0 / 0.15);
+    }
+
+    .facility-icon {
+      font-size: 3.5rem;
+      color: dark;
+      margin-bottom: 20px;
+    }
+
+    .facility-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: dark;
+    }
+
+    .facility-desc {
+      font-size: 1rem;
+      color: #444;
+      flex-grow: 1;
+    }
+
+    /* Restoran Section */
+    #restoran {
+      padding: 60px 0;
+      background-color: #fff;
+    }
+
+    #restoran h2 {
+      color: dark;
+      font-weight: 700;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .restaurant-card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+      background: white;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .restaurant-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 14px 30px rgb(0 0 0 / 0.2);
+    }
+
+    .restaurant-card img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .restaurant-card-body {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .restaurant-title {
+      font-weight: 700;
+      color: dark;
+      margin-bottom: 10px;
+    }
+
+    .restaurant-desc {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    /* Rooms Section */
+    .rooms-section {
+      padding: 60px 0;
+    }
+
+    .room-card {
+      box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+      border-radius: 12px;
+      background: white;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .room-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 30px rgb(0 0 0 / 0.2);
+    }
+
+    .room-card img {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      height: 200px; 
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .room-card-body {
+      padding: 15px 20px;
+    }
+
+    .room-title {
+      font-weight: 700;
+      color: dark;
+      margin-bottom: 10px;
+    }
+
+    .room-price {
+      font-weight: 600;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #070a0c;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #ecf0f1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Meeting & Event Section */
+    #meeting {
+      padding: 60px 0;
+      background-color: #f9fbff;
+    }
+
+    #meeting h2 {
+      color: dark;
+      font-weight: 700;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .meeting-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgb(0 0 0 / 0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .meeting-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 16px 40px rgb(0 0 0 / 0.15);
+    }
+
+    .meeting-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    .meeting-card-body {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .meeting-title {
+      font-weight: 700;
+      color: dark;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .meeting-desc {
+      color: #555;
+      font-size: 1rem;
+    }
+
+    /* Optional: fix iframe height */
+    .map-responsive {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      /* 16:9 ratio */
+      height: 0;
+    }
+
+    .map-responsive iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-section {
+        height: 400px;
+      }
+
+      .hero-section h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero-section p {
+        font-size: 1rem;
+      }
+
+      .room-card img,
+      .restaurant-card img,
+      .meeting-card img {
+        height: 180px;
+      }
+    }

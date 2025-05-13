@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <title>Hotel</title>
+  <link rel="icon" href="img/Kn1.jpg">
+</head>
+
+<body>
+  <!-- Start Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-link-light bg-dark sticky-top">
+    <div class="container">
+      <!-- Title -->
+      <a class="navbar-brand bi bi-house-door link-light" href="#">
+        Khairul Hotel</a>
+      <!--End Title-->
+
+      <!-- menu button -->
+      <button class="navbar-toggler link-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon link-light"></span>
+      </button>
+      <!--End Menu Button-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link link-light active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#kamar">Kamar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="#meeting">Meeting/Event</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle link-light" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Tentang Kami
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item link-light" href="#about">Profile</a></li>
+              <li><a class="dropdown-item link-light" href="#restoran">Restoran</a></li>
+              <li><a class="dropdown-item link-light" href="#fasilitas">Fasilitas</a></li>
+              <li><a class="dropdown-item link-light" href="#kontak">Kontak</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link link-light" href="Profile.html">Profile Saya</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar-->
+
+  <!--Hero Section-->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Your Dream Destination</h1>
+      <p>Rasakan kemewahan, kenyamanan, dan momen tak terlupakan bersama kami.</p>
+      <a href="#kamar" class="btn btn-dark btn-lg rounded-pill px-4">Book Now</a>
+    </div>
+  </section>
+  <!--End Hero-->
+
+  <!--Room Card-->
+  <section id="kamar" class="rooms-section container">
+    <h2 class="text-center text-dark mb-5 fw-bold">Our Rooms</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="room-card">
+          <img src="style/hotel/Deluxe.jfif" alt="Deluxe Room">
+          <div class="room-card-body">
+            <h3 class="room-title">Deluxe Room</h3>
+            <p>Sebuah ruangan yang luas dan modern dengan pemandangan kota dan fasilitas premium.</p>
+            <p class="room-price">Rp. 250.000 / Night</p>
+            <a href="#kontak" class="btn btn-dark w-100 mt-3">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="room-card">
+          <img src="style/hotel/Standart.jfif" alt="Standard Room">
+          <div class="room-card-body">
+            <h3 class="room-title">Standard Room</h3>
+            <p>Kamar yang nyaman dengan fasilitas penting dengan harga terjangkau.</p>
+            <p class="room-price">Rp. 150.000/ Night</p>
+            <a href="#kontak" class="btn btn-dark w-100 mt-3">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="room-card">
+          <img src="style/hotel/Executive.jfif" alt="Suite">
+          <div class="room-card-body">
+            <h3 class="room-title">Executive Suite</h3>
+            <p>Suite mewah dengan area tamu terpisah dan fasilitas kelas atas.</p>
+            <p class="room-price">Rp. 500.000 / Night</p>
+            <a href="#kontak" class="btn btn-dark w-100 mt-3">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Room Section-->
+
+  <!--Fasilitas Start-->
+  <section id="fasilitas" class="container">
+    <h2 class="text-dark">Fasilitas Kami</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="facility-card">
+          <i class="bi bi-wifi facility-icon" style="color: #000000;"></i>
+          <h4 class="facility-title text-dark">Free Wi-Fi</h4>
+          <p class="facility-desc">Layanan Wi-Fi cepat dan stabil di seluruh area hotel tanpa biaya tambahan.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="facility-card">
+          <i class="bi bi-bicycle facility-icon" style="color: #000000;"></i>
+          <h4 class="facility-title text-dark">Rental Sepeda</h4>
+          <p class="facility-desc">Sewa sepeda untuk menjelajahi sekitar area hotel dengan nyaman.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="facility-card">
+          <i class="bi bi-journal-richtext facility-icon" style="color: #000000;"></i>
+          <h4 class="facility-title text-dark">Ruangan Meeting</h4>
+          <p class="facility-desc">Fasilitas ruang meeting lengkap dengan peralatan modern untuk kebutuhan bisnis Anda.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="facility-card">
+          <i class="bi bi-basket3 facility-icon" style="color: #000000;"></i>
+          <h4 class="facility-title text-dark">Breakfast Gratis</h4>
+          <p class="facility-desc">Sarapan lezat setiap pagi disediakan secara gratis untuk tamu hotel.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="facility-card">
+          <i class="bi bi-droplet facility-icon" style="color: #000000;"></i>
+          <h4 class="facility-title text-dark">Kolam Renang</h4>
+          <p class="facility-desc">Nikmati kolam renang outdoor yang bersih dan menyenangkan sepanjang hari.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="facility-card">
+          <i class="bi bi-heart facility-icon" style="color: #000000;"></i>
+          <h4 class="facility-title text-dark">Spa & Wellness</h4>
+          <p class="facility-desc">Layanan spa dan perawatan tubuh yang memanjakan untuk relaksasi Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Fasilitas-->
+
+  <!-- Restoran Section -->
+  <section id="restoran" class="container">
+    <h2>Restoran Kami</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="restaurant-card">
+          <img src="style/hotel/Main-Restoran.jfif" alt="Main Restaurant">
+          <div class="restaurant-card-body">
+            <h3 class="restaurant-title">Main Restaurant</h3>
+            <p class="restaurant-desc">Menyajikan hidangan internasional dan lokal dengan bahan-bahan segar berkualitas
+              tinggi.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="restaurant-card">
+          <img src="style/hotel/Cafe.jfif" alt="Coffee Lounge">
+          <div class="restaurant-card-body">
+            <h3 class="restaurant-title">Coffee Lounge</h3>
+            <p class="restaurant-desc">Tempat nyaman untuk menikmati kopi spesial dan kue-kue lezat sepanjang hari.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="restaurant-card">
+          <img src="style/hotel/Rooftop.jfif" alt="Sky Bar">
+          <div class="restaurant-card-body">
+            <h3 class="restaurant-title">Sky Bar</h3>
+            <p class="restaurant-desc">Nikmati minuman berkelas sambil menikmati pemandangan kota dari atas gedung
+              hotel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Restoran Section-->
+
+  <!--Event Section-->
+  <section id="meeting" class="container">
+    <h2>Meeting & Event / Hallroom</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="meeting-card">
+          <img src="style/hotel/Ballroom.jfif" alt="Grand Ballroom">
+          <div class="meeting-card-body">
+            <h3 class="meeting-title">Grand Ballroom</h3>
+            <p class="meeting-desc">Ruang ballroom luas untuk acara besar seperti konferensi, pesta, dan acara
+              pernikahan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="meeting-card">
+          <img src="style/hotel/Meeting.jfif" alt="Meeting Room A">
+          <div class="meeting-card-body">
+            <h3 class="meeting-title">Meeting Room A</h3>
+            <p class="meeting-desc">Ruang meeting modern dengan fasilitas AV lengkap dan kapasitas hingga 30 orang.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="meeting-card">
+          <img src="style/hotel/Event.jfif" alt="Event Hall">
+          <div class="meeting-card-body">
+            <h3 class="meeting-title">Event Hall</h3>
+            <p class="meeting-desc">Ruang serbaguna untuk berbagai acara kecil hingga menengah, lengkap dengan layanan
+              katering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Event-->
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <h2 class="text-dark fw-bold mb-4 text-center">About Us</h2>
+    <p class="lead text-center mx-auto" style="max-width: 700px;">
+      Khairul Hotel menawarkan perpaduan unik antara kemewahan, gaya, dan kehangatan.
+      Terletak di jantung kota, hotel kami menyambut para pelancong dengan layanan yang luar biasa, akomodasi yang
+      nyaman, dan fasilitas modern.
+    </p>
+  </section>
+  <div class="container my-5">
+    <h2 class="text-dark fw-bold mb-4 text-center">Our Location</h2>
+    <div class="map-responsive">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1537.9808395650111!2d104.01406774753545!3d1.1399339399646375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1746982868681!5m2!1sid!2sid"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!--End About Section-->
+
+  <!-- Contact Section -->
+  <section id="kontak" class="container py-5">
+    <h2 class="text-dark  fw-bold mb-4 text-center">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama</label>
+            <input type="text" id="name" class="form-control" placeholder="Nama Anda" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="nama@example.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Pesan</label>
+            <textarea id="message" rows="4" class="form-control" placeholder="Tinggalkan Pesan anda disini"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark w-100">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--End Contact Section-->
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      &copy; Khairul Nizam &nbsp;
+    </div>
+  </footer>
+  <!--End Footer-->
+</body>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
